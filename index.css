@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #e5e5e5;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.header-box {
+  max-width: 100%;
+  width: 1700px;
+  margin: 0 auto;
+  height: 90px;
+  background: #15171e;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.big-red-btn {
+  letter-spacing: 0.05em;
+  width: 236px;
+  height: 90px;
+  font-size: 22px;
+  background: #e84a43;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 600;
+  border: 1px #e84a43 solid;
+  cursor: pointer;
+}
+
+.text-button {
+  background: none;
+  border: none;
+  width: 105px;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.text-button:hover {
+  color: #e84a43;
+}
+
+.right-part {
+  margin-right: 22px;
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.site-add-box {
+  background-image: url(./images/night-city.jpg);
+  max-width: 100%;
+  width: 1700px;
+  height: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  letter-spacing: 0.05em;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+.sub-text {
+  letter-spacing: 0.05em;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+.text-date {
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  padding-right: 15px;
+}
+
+.little-red-btn {
+  letter-spacing: 0.05em;
+  width: 140px;
+  height: 50px;
+  font-size: 22px;
+  background: #e84a43;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 600;
+  border: 1px #e84a43 solid;
+  cursor: pointer;
+  margin-left: 25vh;
+}
+
+.little-red-btn:hover {
+  opacity: 0.6;
+}
+
+.box-with-text-info {
+  display: flex;
+  margin-top: 25px;
+}
+
+.text-content-of-box {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  display: inline-block;
+}
