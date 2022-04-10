@@ -60,6 +60,8 @@ p {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
+  text-align: center;
+  margin-top: 25px;
 }
 
 .text-button:hover {
@@ -134,4 +136,114 @@ p {
   top: 25%;
   left: 25%;
   display: inline-block;
+}
+
+.big-red-text-box {
+  background: #e84a43;
+  max-width: 100%;
+  width: 1700px;
+  height: 900px;
+  margin: 0 auto;
+}
+
+.text-date-other {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-right: 15px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.text-date-middle {
+  padding-left: 100px;
+  padding-right: 60px;
+}
+
+.first-part-of-main-text {
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-top: 40px;
+}
+
+.first-part-of-main-text-second {
+  padding-top: 15px;
+}
+
+.button-arrow {
+  width: 120px;
+  height: 40px;
+  background: #e84a43;
+  border: 1px solid #e84a43;
+  padding-right: 0px;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background: #e84a43;
+  border: 1px solid #e84a43;
+  font-weight: 600;
+  display: flex;
+  padding-top: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.button-arrow-img {
+  width: 29px;
+  height: 29px;
+  filter: invert(1);
+}
+
+.button-with-arrow {
+  padding-top: 50px;
+}
+
+.button-arrow-text {
+  padding-top: 5px;
+  padding-left: 7px;
+}
+
+.text-in-red-box {
+  position: relative;
+  top: 25%;
+  left: 27%;
+  display: inline-block;
+}
+
+.box-with-cinema-img {
+  background: url(./images/cinema-img.jpg);
+  max-width: 1700px;
+  height: 650px;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.sub-title {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sub-text-cinema-img {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-top: 15px;
+  line-height: 30px;
+}
+
+.text-block-in-cinema-img {
+  position: relative;
+  top: 25%;
+  left: 28%;
+  display: inline-block;
+}
+
+.title-cinema-img {
+  padding-bottom: 20px;
 }
