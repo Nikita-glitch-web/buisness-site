@@ -361,3 +361,119 @@ p {
   height: 670px;
   margin: 0 auto;
 }
+
+.blue-archive-box {
+  background: #151a2c;
+  max-width: 1700px;
+  height: 1830px;
+  margin: 0 auto;
+}
+
+.archive-title {
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.blue-archive-box-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.img-with-black-hair-men {
+  background-image: url(./images/img-with-black-hair-men.webp);
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+}
+
+.img-with-alot-of-people {
+  background-image: url(./images/img-with-alot-of-people.webp);
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+}
+
+.box-with-archive-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.img-with-arab-men {
+  background-image: url(./images/img-with-arab-men.webp);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  margin-top: 25px;
+}
+
+.img-with-blond-men {
+  background-image: url(./images/img-with-blond-men.webp);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  margin-top: 25px;
+}
+
+.img-with-light-torch {
+  background-image: url(./images/img-with-light-torch.webp);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  margin-top: 25px;
+}
+
+.img-with-team-people {
+  background-image: url(./images/img-with-team-people.webp);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  margin-top: 25px;
+}
+
+.admin-text {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  padding-top: 10px;
+  padding-left: 23px;
+}
+
+.admin-subtext {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  padding-left: 23px;
+}
+
+.main-text {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  top: 60%;
+  left: 7%;
+}
+
+.white-line-grey {
+  color: white;
+  position: relative;
+  display: inline-block;
+  top: 65%;
+  left: 7%;
+}
+
+.main-text-second {
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.main-text:hover {
+  color: #e84a43;
+  cursor: pointer;
+}
